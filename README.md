@@ -40,7 +40,7 @@ preprocesamiento-de-datos-josemalvarezg1/
 
 # Herramientas
 
-En la presente tarea se utilizó diferentes herramientas con respectivas versiones:
+En la presente tarea se utilizaron las siguientes herramientas con respectivas versiones:
 
 | Herramienta                         	 | Versión   													   |                            
 |----------------------------------------|-----------------------------------------------------------------|
@@ -54,7 +54,9 @@ Los conjuntos de datos generados al realizar el scraping fueron los siguientes:
 
 | Dataset                        		 |            Resumen                            									  | Elementos |
 |----------------------------------------|------------------------------------------------------------------------------------|-----------|
-| vista-minable.csv                  	 | Representa a todas las laptops en venta en la página www.pcel.com				  |    304    |
+| vista-minable.csv                  	 | Representa a todas las laptops en venta en la página www.pcel.com				  |    306*   |
+
+*La cantidad de elementos del dataset dependerá de la cantidad de laptops que se obtengan al realizar el scraping.
 
 
 # Inicialización
