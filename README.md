@@ -2,7 +2,7 @@
 
 ## Tabla de contenido
 
-* [Resumen](#resumen)
+* [Implementación](#implementación)
 * [Archivos que contiene el repositorio](#archivos-que-contiene-el-repositorio)
 * [Herramientas](#herramientas)
 * [Datasets](#datasets)
@@ -11,7 +11,7 @@
 * [Creador](#creador)
 
 
-# Resumen
+# Implementación
 
 En esta tarea se obtiene un dataset relacionado a la venta de laptops realizando la extracción de datos crudos a la página web www.pcel.com. Se utilizará la herramienta Scrapy para generar la vista minable en un archivo .csv que contendrá las especificaciones de las laptops (ver databook.txt). Este archivo será trabajado posteriormente para su limpieza. Los datos correspondientes al modelo y marca de las laptops serán considerados con el tipo de dato string, mientras que los datos correspondientes a los precios de las laptops serán considerados con el tipo de dato flotante. Como se explica en el archivo databook.txt, no siempre las columnas correspondientes a los precios contienen información en caso de que se haya realizado una rebaja o no, por lo que se debe replicar el precio actual en las columnas que estén vacías por si se desea trabajar con ellas.
 
@@ -24,7 +24,7 @@ preprocesamiento-de-datos-josemalvarezg1/
 ├── README.md
 ├── src/
 │   ├── preproc.py
-│   ├── scrapy.cfg│   
+│   ├── scrapy.cfg   
 │   └── scraper 
 │		├──__init__.py
 │		├── items.py
