@@ -1,0 +1,14 @@
+José Manuel Alvarez García
+CI 25038805
+Introducción a la Ciencia de Datos - Tarea 1
+
+En el dataset se encontrarán las siguientes columnas:
+"marca": Corresponde a la marca comercial de la laptop.
+
+"modelo": Corresponde al modelo de la laptop.
+
+"precio": Corresponde al precio original de la laptop sin haberle hecho alguna rebaja. Cuando esto último ocurre, la celda correspondiente a esta columna estará vacía.
+
+"precio_viejo": Corresponde al precio original de la laptop al haberle hecho alguna rebaja. Cuando esto último no ocurre, la celda correspondiente a esta columna estará vacía.
+
+"precio_nuevo": Corresponde al precio actual de la laptop al haberle hecho alguna rebaja. Cuando esto último no ocurre, la celda correspondiente a esta columna estará vacía.
